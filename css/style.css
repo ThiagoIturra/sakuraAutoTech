@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --main-color: "";
+    --secondary-color: "";
+    --tertiary-color: "";
+    --quaternary-color: "";
+    --main-text-color: "";
+    --title-color: "";
+    --description-color: "";
+    --button-color: "";
+    --error-color: "";
+    --success-color: "";
+}
