@@ -6,14 +6,15 @@
 }
 
 :root {
-    --main-color: "";
-    --secondary-color: "";
-    --tertiary-color: "";
-    --quaternary-color: "";
-    --main-text-color: "";
-    --title-color: "";
-    --description-color: "";
-    --button-color: "";
-    --error-color: "";
-    --success-color: "";
+    --main-color: #F2BED1;
+    --secondary-color: #FDCEDF;
+    --tertiary-color: #F8E8EE;
+    --quaternary-color: #F9F5F6;
+    --white: #fff;
+    --main-text-color: ;
+    --title-color: ;
+    --description-color: ;
+    --button-color: ;
+    --error-color: ;
+    --success-color: ;
 }
