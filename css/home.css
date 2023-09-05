@@ -1,0 +1,32 @@
+.home {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.home-links {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap:  10%;
+}
+
+.topics-home {
+    text-decoration: none;
+    color: var(--button-color);
+    cursor: pointer;
+}
+
+.border-bottom-links {
+    width: 50%;
+    margin-top: 3%;
+    background-color: transparent;
+    color: transparent;
+    border-bottom: solid 1px black;
+}

@@ -1,0 +1,59 @@
+.card-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.line-card {
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 10%;
+}
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    padding: 2% 2% 2% 2%;
+    margin-top: 3%;
+    border-radius: 4px;
+    background-color: var(--card-color);
+    cursor: pointer;
+}
+.card:hover{
+    background-color: var(--main-color);
+    transition: 2s;
+}
+
+.card-container {
+    width: 230px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-card {
+    margin-top: 30px;
+    width: 230px;
+    font-size: 20px;
+}
+
+.description-card {
+    width: 230px;
+    font-size: 15px;
+    color: var(--description-color);
+}
+
+.price-card {
+    width: 230px;
+    font-size: 15px;
+}
+
+.img-card {
+    width: 100%;
+    border-radius: 4px;
+}
