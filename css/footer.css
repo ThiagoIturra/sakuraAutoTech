@@ -6,25 +6,30 @@ footer a {
     text-decoration: none;
 }
 
-.top-bottom-footer {
+.bottom-footer {
     width: 100%;
     height: fit-content;
     padding: 0.5% 0 0.5% 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: var(--main-color);
-    color: var(--gray);
-    font-size: 15px;
+    background-color: black;
+}
+
+.bottom-footer h4{
+    color: var(--card-color);
+    font-size: 13px;
+    padding: 0 5% 0 5%;
+    font-weight: 100;
 }
 
 .click-here {
-    color: var(--gray);
+    color: var(--card-color);
     border-bottom: solid 1px var(--gray);
 }
 
 .click-here:hover {
-    color: var(--gray);
+    color: var(--card-color);
 }
 
 .footer-info {
