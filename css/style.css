@@ -6,11 +6,12 @@
 }
 
 :root {
-    --main-color: #F2BED1;
-    --secondary-color: #FDCEDF;
+    --main-color: #e77298;
+    --secondary-color: #ffbcce;
     --tertiary-color: #F8E8EE;
     --quaternary-color: #F9F5F6;
-    --card-color: #f0cad881;
+    --card-color: #dedede ;
+    --card-color-hover: #f0cad881;
     --white: #fff;
     --main-text-color: ;
     --title-color: ;

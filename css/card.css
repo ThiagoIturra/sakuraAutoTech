@@ -25,7 +25,7 @@
     cursor: pointer;
 }
 .card:hover{
-    background-color: var(--main-color);
+    background-color: var(--card-color-hover);
     transition: 2s;
 }
 
