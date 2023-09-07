@@ -22,7 +22,7 @@ a:hover{
 }
 
 .nav-bar-left {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: flex-end;
     gap: 40px;
@@ -34,7 +34,7 @@ a:hover{
 }
 
 .nav-bar-right {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: center;
     gap: 30px;

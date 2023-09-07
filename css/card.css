@@ -27,17 +27,14 @@
     border-radius: 4px;
     background-color: var(--card-color);
     cursor: pointer;
-}
-.card:hover{
-    background-color: var(--card-color-hover);
-    transition: 2s;
-}
-
-.card-container {
     width: 230px;
     gap: 5px;
     display: flex;
     flex-direction: column;
+}
+.card:hover{
+    background-color: var(--card-color-hover);
+    transition: 2s;
 }
 
 .title-card {
