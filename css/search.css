@@ -1,0 +1,14 @@
+.search-container {
+    position: relative;
+    width: 20%;
+}
+
+#searchInput {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 2px;
+    border-radius: 25px;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+}
