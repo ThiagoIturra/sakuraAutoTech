@@ -1,14 +1,37 @@
+.nav-bar-left svg{
+    background-color: white;
+    color: var(--main-color);
+    position: absolute;
+    right: 10px;
+}
+
 .search-container {
     position: relative;
-    width: 20%;
+    width: 20px;
+    transition: width 1s;
+    display: flex;
+    gap: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    outline: none;
+    background-color: white;
+    padding: 5px;
 }
 
 #searchInput {
-    width: 100%;
-    border: 1px solid #ccc;
-    padding: 2px;
-    border-radius: 25px;
-    outline: none;
+    width: 75%;
+    margin-left: 10px;
+    border: none;
     font-size: 14px;
     font-weight: 500;
+    color: black;
+    background-color: transparent;
+}
+
+#searchInput:focus {
+    outline: none;
+}
+
+.magnifying-glass {
+    cursor: pointer;
 }

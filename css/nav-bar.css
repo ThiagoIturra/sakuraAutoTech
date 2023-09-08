@@ -24,18 +24,16 @@ a:hover{
 .nav-bar-left {
     width: 60%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
-}
-
-.nav-bar-left button{
-    background-color: transparent;
-    color: var(--white)
 }
 
 .nav-bar-right {
     width: 40%;
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: flex-end;
+    padding-right: 3%;
+    align-items: center;
+    gap: 30px
 }

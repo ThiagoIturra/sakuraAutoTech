@@ -36,24 +36,11 @@ footer a {
     background-color: var(--gray);
     width: 100%;
     height: 100px;
-    padding-top: 2%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 30px
-}
-
-.footer-links {
-    display: flex;
-    gap: 60px;
-}
-
-.footer-links a{
-    color: var(--white);
-}
-
-.footer-links a:hover {
-    color: var(--hover-text-color);
 }
 
 .footer-icons {
