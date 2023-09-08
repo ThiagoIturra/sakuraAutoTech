@@ -37,6 +37,11 @@
     transition: 2s;
 }
 
+.img-card {
+    width: 100%;
+    border-radius: 4px;
+}
+
 .title-card {
     margin-top: 30px;
     width: 230px;
@@ -54,7 +59,7 @@
     font-size: 15px;
 }
 
-.img-card {
+#title-not-found {
     width: 100%;
-    border-radius: 4px;
+    font-size: 15px;
 }
