@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/nav-bar.css">
     <link rel="stylesheet" href="./css/search.css">
     <link rel="stylesheet" href="./css/background.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/card.css">
     <link rel="stylesheet" href="./css/footer.css">
@@ -15,6 +16,17 @@
 </head>
 
 <body>
+    <div id="myModal" class="modal">
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="modal-content-left"></div>
+                <div class="modal-content-right">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <p>Conteúdo do modal vai aqui...</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <nav>
         <div class="nav-bar-left">
             <img src="">
@@ -42,7 +54,7 @@
             <div class="background-grid">
                 <h2 class="background-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis massa</h2>
                 <p class="background-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis massa</p>
-                <button class="background-button">connect</button>
+                <button class="background-button">connect with us</button>
             </div>
         </div>
     </section>
@@ -58,7 +70,8 @@
         <div class="grid-container">
             <div class="line-card">
                 <div id="notFound" style="display: none">
-                    <h1 id="title-not-found">Sorry, we couldn't find anything related to your search. If you have any questions, please contact our support or reach out via direct message on Instagram.</h1>
+                    <h1 id="title-not-found">Sorry, we couldn't find anything related to your search. If you have any
+                        questions, please contact our support or reach out via direct message on Instagram.</h1>
                 </div>
             </div>
         </div>
@@ -99,6 +112,7 @@
     <script src="./js/limiter.js"></script>
     <script src="./js/searchField.js"></script>
     <script src="./js/searchstyle.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
