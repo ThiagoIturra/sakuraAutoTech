@@ -31,7 +31,9 @@
     gap: 5px;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
 }
+
 .card:hover{
     background-color: var(--card-color-hover);
     transition: 2s;

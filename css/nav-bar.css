@@ -21,19 +21,10 @@ a:hover{
     color: var(--hover-text-color);
 }
 
-.nav-bar-left {
+.nav-bar {
     width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
-}
-
-.nav-bar-right {
-    width: 40%;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 3%;
-    align-items: center;
-    gap: 30px
 }

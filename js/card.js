@@ -1,43 +1,14 @@
 const selling = [
-    {
-      img: './assets/img/0e10e16ea89ec51f52afd8d1ae0fba58.jpg',
-      title: 'Subaru WRX STI',
-      description: 'Performance with stability under your control. The Subaru WRX STI is the car for speed enthusiasts. Born from the top rally competitions, the Subaru Tecnica International WRX carries the legacy of the STI three letters with over 300 horsepower, ensuring you the performance of a racing driver. Are you just going to imagine? Its time for you to live this exciting experience with one of the most engaging cars to drive.',
-      price: 'R$308.900,00'
-    },
-    {
-      img: './assets/img/0e10e16ea89ec51f52afd8d1ae0fba58.jpg',
-      title: 'teste',
-      description: 'Performance with stability under your control. The Subaru WRX STI is the car for speed enthusiasts. Born from the top rally competitions, the Subaru Tecnica International WRX carries the legacy of the STI three letters with over 300 horsepower, ensuring you the performance of a racing driver. Are you just going to imagine? Its time for you to live this exciting experience with one of the most engaging cars to drive.',
-      price: 'R$308.900,00'
-    },
-    {
-      img: './assets/img/0e10e16ea89ec51f52afd8d1ae0fba58.jpg',
-      title: 'teste2',
-      description: 'Performance with stability under your control. The Subaru WRX STI is the car for speed enthusiasts. Born from the top rally competitions, the Subaru Tecnica International WRX carries the legacy of the STI three letters with over 300 horsepower, ensuring you the performance of a racing driver. Are you just going to imagine? Its time for you to live this exciting experience with one of the most engaging cars to drive.',
-      price: 'R$308.900,00'
-    },
-    {
-      img: './assets/img/0e10e16ea89ec51f52afd8d1ae0fba58.jpg',
-      title: 'teste3',
-      description: 'Performance with stability under your control. The Subaru WRX STI is the car for speed enthusiasts. Born from the top rally competitions, the Subaru Tecnica International WRX carries the legacy of the STI three letters with over 300 horsepower, ensuring you the performance of a racing driver. Are you just going to imagine? Its time for you to live this exciting experience with one of the most engaging cars to drive.',
-      price: 'R$308.900,00'
-    },
-    {
-      img: './assets/img/0e10e16ea89ec51f52afd8d1ae0fba58.jpg',
-      title: 'teste4',
-      description: 'Performance with stability under your control. The Subaru WRX STI is the car for speed enthusiasts. Born from the top rally competitions, the Subaru Tecnica International WRX carries the legacy of the STI three letters with over 300 horsepower, ensuring you the performance of a racing driver. Are you just going to imagine? Its time for you to live this exciting experience with one of the most engaging cars to drive.',
-      price: 'R$308.900,00'
-    },
-    {
-      img: './assets/img/0e10e16ea89ec51f52afd8d1ae0fba58.jpg',
-      title: 'teste5',
-      description: 'Performance with stability under your control. The Subaru WRX STI is the car for speed enthusiasts. Born from the top rally competitions, the Subaru Tecnica International WRX carries the legacy of the STI three letters with over 300 horsepower, ensuring you the performance of a racing driver. Are you just going to imagine? Its time for you to live this exciting experience with one of the most engaging cars to drive.',
-      price: 'R$308.900,00'
-    },
-  ];
-  
-  function createCard(product) {
+  {
+    img: './assets/img/0e10e16ea89ec51f52afd8d1ae0fba58.jpg',
+    title: 'Subaru WRX STI',
+    description: 'Performance with stability under your control. The Subaru WRX STI is the car for speed enthusiasts. Born from the top rally competitions, the Subaru Tecnica International WRX carries the legacy of the STI three letters with over 300 horsepower, ensuring you the performance of a racing driver. Are you just going to imagine? Its time for you to live this exciting experience with one of the most engaging cars to drive.',
+    price: 'R$308.900,00',
+    region: 'Tokyo, Japan',
+  },
+];
+
+function createCard(product) {
     const card = document.createElement('div');
     card.classList.add('card');
   

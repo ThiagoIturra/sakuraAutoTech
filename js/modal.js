@@ -1,11 +1,11 @@
 function openModal() {
-    var modal = document.getElementById("myModal");
+    var modal = document.getElementById("my-modal");
     modal.style.display = "block";
   }
   
   // Função para fechar o modal
   function closeModal() {
-    var modal = document.getElementById("myModal");
+    var modal = document.getElementById("my-modal");
     modal.style.display = "none";
   }
   
@@ -19,7 +19,7 @@ function openModal() {
   
   // Fechar o modal se o usuário clicar fora dele
   window.addEventListener("click", function(event) {
-    var modal = document.getElementById("myModal");
+    var modal = document.querySelector(".modal-container");
     if (event.target === modal) {
       closeModal();
     }
