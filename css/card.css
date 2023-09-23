@@ -63,3 +63,8 @@
     width: 100%;
     font-size: 15px;
 }
+
+#notFound {
+    height: 245.484px;
+    align-items: center;
+}

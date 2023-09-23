@@ -1,6 +1,7 @@
 const searchContainerInput= document.querySelector(".search-container");
+const searchSvg = document.querySelector(".magnifying-glass");
 
-searchContainerInput.addEventListener("click", function(){
+searchSvg.addEventListener("click", function(){
     if (searchContainerInput.style.width === "18%") {
         searchContainerInput.style.width = "20px";
     } else {
