@@ -1,0 +1,36 @@
+.nav-bar svg{
+    background-color: white;
+    color: var(--main-color);
+    position: absolute;
+    right: 9px;
+}
+
+.search-container {
+    width: 20px;
+    position: relative;
+    transition: width 1s;
+    display: flex;
+    gap: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    outline: none;
+    background-color: white;
+    padding: 5px;
+}
+
+#searchInput {
+    width: 75%;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    background-color: transparent;
+}
+
+#searchInput:focus {
+    outline: none;
+}
+
+.magnifying-glass {
+    cursor: pointer;
+}

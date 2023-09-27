@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/nav-bar.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/nav-bar.css">
+    <link rel="stylesheet" href="./css/search.css">
     <link rel="stylesheet" href="./css/background.css">
+    <link rel="stylesheet" href="./css/modal.css">
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="./css/card.css">
     <link rel="stylesheet" href="./css/footer.css">
@@ -14,25 +16,33 @@
 </head>
 
 <body>
+    <div id="my-modal" class="modal">
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="modal-content-left"></div>
+                <div class="modal-content-right">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <p>Conteúdo do modal vai aqui...</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <nav>
-        <div class="nav-bar-left">
+        <div class="nav-bar">
             <img src="">
             <a href="#">products</a>
             <a href="#">brands</a>
             <a href="#">contact</a>
             <a href="#">about us</a>
             <a href="#">sponsors</a>
-            <button>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
-                    viewBox="0 0 16 16">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="">
+                <svg class="magnifying-glass" xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                    fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                     <path
                         d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                 </svg>
-            </button>
-        </div>
-        <div class="nav-bar-right">
-            <a href="#">login</a>
-            <a href="#">register</a>
+            </div>
         </div>
     </nav>
     <section class="background">
@@ -40,34 +50,31 @@
             <div class="background-grid">
                 <h2 class="background-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis massa</h2>
                 <p class="background-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis massa</p>
-                <button class="background-button">connect</button>
+                <button class="background-button">connect with us</button>
             </div>
         </div>
     </section>
     <section class="home">
         <div class="home-links">
-            <a href="#" class="topics-home">random</a>
-            <a href="#" class="topics-home">random</a>
-            <a href="#" class="topics-home">random</a>
+            <a href="#" class="topics-home">products</a>
+            <a href="#" class="topics-home">funding</a>
+            <a href="#" class="topics-home">news</a>
         </div>
         <div class="border-bottom-links">a</div>
     </section>
     <section class="card-section">
         <div class="grid-container">
             <div class="line-card">
+                <div id="notFound" style="display: none">
+                    <h1 id="title-not-found">Sorry, we couldn't find anything related to your search. If you have any
+                        questions, please contact our support or reach out via direct message on Instagram.</h1>
+                </div>
             </div>
         </div>
     </section>
     <footer>
 
         <div class="footer-info">
-            <div class="footer-links">
-                <a href="#">products</a>
-                <a href="#">resale</a>
-                <a href="#">funding</a>
-                <a href="#">sell</a>
-                <a href="#">news</a>
-            </div>
             <div class="footer-icons">
                 <a>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -99,6 +106,9 @@
     </footer>
     <script src="./js/card.js"></script>
     <script src="./js/limiter.js"></script>
+    <script src="./js/searchField.js"></script>
+    <script src="./js/searchstyle.js"></script>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>

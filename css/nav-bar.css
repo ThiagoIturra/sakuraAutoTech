@@ -21,21 +21,10 @@ a:hover{
     color: var(--hover-text-color);
 }
 
-.nav-bar-left {
-    width: 50%;
-    display: flex;
-    justify-content: flex-end;
-    gap: 40px;
-}
-
-.nav-bar-left button{
-    background-color: transparent;
-    color: var(--white)
-}
-
-.nav-bar-right {
-    width: 50%;
+.nav-bar {
+    width: 60%;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    align-items: center;
+    gap: 40px;
 }

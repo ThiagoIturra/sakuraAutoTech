@@ -27,17 +27,21 @@
     border-radius: 4px;
     background-color: var(--card-color);
     cursor: pointer;
+    width: 230px;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
 }
+
 .card:hover{
     background-color: var(--card-color-hover);
     transition: 2s;
 }
 
-.card-container {
-    width: 230px;
-    gap: 5px;
-    display: flex;
-    flex-direction: column;
+.img-card {
+    width: 100%;
+    border-radius: 4px;
 }
 
 .title-card {
@@ -57,7 +61,12 @@
     font-size: 15px;
 }
 
-.img-card {
+#title-not-found {
     width: 100%;
-    border-radius: 4px;
+    font-size: 15px;
+}
+
+#notFound {
+    height: 245.484px;
+    align-items: center;
 }
