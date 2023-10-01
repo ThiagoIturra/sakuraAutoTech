@@ -30,11 +30,13 @@ function createCard(product) {
     card.classList.add('card');
   
     const cardInnerHtml = `
+      <a href="productDetails.html?id=${product.id}">
         <img class="img-card" src="${product.img}" alt="">
         <h1 class="title-card">${product.title}</h1>
         <p class="description-card">${product.description}</p>
         <h2 class="price-card">${product.price}</h2>
-    `;
+      </a>
+  `;
   
     card.innerHTML = cardInnerHtml;
     return card;
