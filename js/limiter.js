@@ -1,5 +1,5 @@
 const elements = document.querySelectorAll('.description-card');
-const limit = 30;
+const limit = 60;
 
 elements.forEach((element) => {
   limiter(element, limit);
