@@ -28,7 +28,7 @@
     background-color: var(--card-color);
     cursor: pointer;
     width: 230px;
-    gap: 5px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     text-decoration: none;
