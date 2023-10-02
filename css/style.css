@@ -22,3 +22,7 @@
     --hover-text-color: gray;
     --gray: rgb(79, 77, 77);
 }
+
+a {
+    all: unset;
+  }
