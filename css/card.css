@@ -28,7 +28,6 @@
     background-color: var(--card-color);
     cursor: pointer;
     width: 230px;
-    gap: 10px;
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -37,6 +36,12 @@
 .card:hover{
     background-color: var(--card-color-hover);
     transition: 2s;
+}
+
+.link-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .img-card {

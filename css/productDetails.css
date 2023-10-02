@@ -1,0 +1,114 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+nav a {
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color: var(--hover-text-color);
+}
+
+.nav-bar {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#notFound {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-not-found {
+    font-size: 15px;
+}
+
+.product-details {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    padding: 10px 0 10px 0;
+}
+
+.img-container-details {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image {
+    border-radius: 5px;
+}
+
+.content-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 55%;
+    height: fit-content;
+    gap: 15px;
+}
+
+.product-title {
+    color: var( --main-color)
+}
+
+.product-description {
+    font-weight: 300;
+}
+
+.product-region {
+    margin-top: 5px;
+}
+
+.button-details {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 0 50px 0;
+}
+.button-details button {
+    background-color: #e6e6e6;
+    padding: 0 20px;
+    width: 25%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    color: #666;
+    font-family: bmwTypeNextWeb,Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 150%;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button-details button:hover {
+    background-color: #a4a4a4;
+}
+

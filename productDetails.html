@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/nav-bar.css">
     <link rel="stylesheet" href="./css/background.css">
     <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/productDetails.css">
     <link rel="stylesheet" href="./css/footer.css">
 </head>
-
 <body>
     <div id="my-modal" class="modal">
         <div class="modal-container">
@@ -33,27 +31,44 @@
             <a href="#">sponsors</a>
         </div>
     </nav>
-    <section class="background">
-        <div class="background-container">
-            <div class="background-grid">
-                <h2 class="background-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis massa</h2>
-                <p class="background-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis massa</p>
-                <button class="background-button">connect with us</button>
-            </div>
+    <div id="notFound" style="display: none">
+        <h1 id="title-not-found">Sorry, we couldn't find anything related to your search. If you have any
+            questions, please contact our support or reach out via direct message on Instagram.</h1>
+    </div>
+    <div class="product-details">
+        <div class="img-container-details">
+            <img class="product-image" src="" alt="puxar do array o aut">
         </div>
-    </section>
-    <main>
-        <div class="product-details">
-            <img class="product-image" src="" alt="Imagem do Produto">
+        <div class="content-details">
             <h1 class="product-title"></h1>
             <p class="product-description"></p>
-            <h2 class="product-price"></h2>
-            <p class="product-region"></p>
+            <div>
+                <h2 class="product-price"></h2>
+                <p class="product-region"></p>
+            </div>
         </div>
-    </main>
-
+    </div>
+    <div class="button-details">
+        <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-chat-left-text-fill" viewBox="0 0 16 16">
+                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5z"/>
+              </svg>
+            Solicite uma proposta
+        </button>
+        <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-chat-left-quote-fill" viewBox="0 0 16 16">
+                <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4.414a1 1 0 0 0-.707.293L.854 15.146A.5.5 0 0 1 0 14.793V2zm7.194 2.766a1.688 1.688 0 0 0-.227-.272 1.467 1.467 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 5.734 4C4.776 4 4 4.746 4 5.667c0 .92.776 1.666 1.734 1.666.343 0 .662-.095.931-.26-.137.389-.39.804-.81 1.22a.405.405 0 0 0 .011.59c.173.16.447.155.614-.01 1.334-1.329 1.37-2.758.941-3.706a2.461 2.461 0 0 0-.227-.4zM11 7.073c-.136.389-.39.804-.81 1.22a.405.405 0 0 0 .012.59c.172.16.446.155.613-.01 1.334-1.329 1.37-2.758.942-3.706a2.466 2.466 0 0 0-.228-.4 1.686 1.686 0 0 0-.227-.273 1.466 1.466 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 10.07 4c-.957 0-1.734.746-1.734 1.667 0 .92.777 1.666 1.734 1.666.343 0 .662-.095.931-.26z"/>
+              </svg>
+            Fale Conosco
+        </button>
+        <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg>
+            Encontre um concessionário
+        </button>
+    </div>
     <footer>
-
         <div class="footer-info">
             <div class="footer-icons">
                 <a>
@@ -84,68 +99,7 @@
             <h4>chat support help <a class="click-here" href="#">here.</a></h4>
         </div>
     </footer>
-
-    <script>
-        const selling = [
-            {
-                img: './assets/img/0e10e16ea89ec51f52afd8d1ae0fba58.jpg',
-                title: 'Subaru WRX STI',
-                description: 'Performance with stability under your control. The Subaru WRX STI is the car for speed enthusiasts. Born from the top rally competitions, the Subaru Tecnica International WRX carries the legacy of the STI three letters with over 300 horsepower, ensuring you the performance of a racing driver. Are you just going to imagine? Its time for you to live this exciting experience with one of the most engaging cars to drive.',
-                price: 'R$308.900,00',
-                region: 'Tokyo, Japan',
-                id: 123456789
-            },
-            {
-                img: './assets/img/0e10e16ea89ec51f52afd8d1ae0fba58.jpg',
-                title: 'teste1',
-                description: 'Performance with stability under your control. The Subaru WRX STI is the car for speed enthusiasts. Born from the top rally competitions, the Subaru Tecnica International WRX carries the legacy of the STI three letters with over 300 horsepower, ensuring you the performance of a racing driver. Are you just going to imagine? Its time for you to live this exciting experience with one of the most engaging cars to drive.',
-                price: 'R$308.900,00',
-                region: 'Tokyo, Japan',
-                id: 123498765
-            },
-            {
-                img: './assets/img/0e10e16ea89ec51f52afd8d1ae0fba58.jpg',
-                title: 'teste2',
-                description: 'Performance with stability under your control. The Subaru WRX STI is the car for speed enthusiasts. Born from the top rally competitions, the Subaru Tecnica International WRX carries the legacy of the STI three letters with over 300 horsepower, ensuring you the performance of a racing driver. Are you just going to imagine? Its time for you to live this exciting experience with one of the most engaging cars to drive.',
-                price: 'R$308.900,00',
-                region: 'Tokyo, Japan',
-                id: 987654321
-            }
-        ];
-
-        function getParameterByName(name, url) {
-            if (!url) url = window.location.href;
-            name = name.replace(/[\[\]]/g, '\\$&');
-            const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
-            const results = regex.exec(url);
-            if (!results) return null;
-            if (!results[2]) return '';
-            return decodeURIComponent(results[2].replace(/\+/g, ' '));
-        }
-
-        function loadProductDetails() {
-            const productId = getParameterByName('id');
-
-            if (productId !== null) {
-                const product = selling.find(item => item.id === parseInt(productId));
-
-                if (product) {
-                    document.querySelector('.product-image').src = product.img;
-                    document.querySelector('.product-title').textContent = product.title;
-                    document.querySelector('.product-description').textContent = product.description;
-                    document.querySelector('.product-price').textContent = product.price;
-                    document.querySelector('.product-region').textContent = `Localização: ${product.region}`;
-                    document.title = product.title;
-
-                } else {
-                    alert('Produto não encontrado.');
-                }
-            } else {
-                alert('ID do produto não especificado na URL.');
-            }
-        }
-        window.onload = loadProductDetails;
-    </script>
+    <script src="./js/productDetails.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 
